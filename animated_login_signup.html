@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login & Sign Up</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Scrollable container enhancement */
+    .container {
+      overflow-y: auto;
+      max-height: 100vh;
+      scroll-behavior: smooth;
+    }
+
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .container::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .container {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+    }
+  </style>
+</head>
+<body>
+  <div class="container" id="container">
+    <div class="form-container sign-up-container">
+      <form id="signup-form">
+        <h1>Create Account</h1>
+        <input type="text" id="signup-fname" placeholder="First Name" required />
+        <input type="text" id="signup-lname" placeholder="Last Name" required />
+        <input type="text" id="signup-username" placeholder="Username" required />
+        <input type="text" id="signup-mobile" placeholder="Mobile No." required />
+        <input type="email" id="signup-email" placeholder="Email" required />
+        <input type="password" id="signup-password" placeholder="Password" required />
+        <input type="password" id="signup-confirm-password" placeholder="Confirm Password" required />
+        <button type="submit">Sign Up</button>
+        <p>Already have an account? <a href="#" id="switch-to-login">Login</a></p>
+      </form>
+    </div>
+    <div class="form-container sign-in-container">
+      <form id="login-form">
+        <h1>log in</h1>
+        <input type="text" id="login-email" placeholder="Email or Username" required />
+        <input type="password" id="login-password" placeholder="Password" required />
+        <button type="submit">Log In</button>
+        <p>Don't have an account? <a href="#" id="switch-to-signup">Create account</a></p>
+      </form>
+    </div>
+    <div class="overlay-container">
+      <div class="overlay">
+        <div class="overlay-panel overlay-left">
+          <h1>Welcome Back!</h1>
+          <p>To keep connected with us please login</p>
+        </div>
+        <div class="overlay-panel overlay-right">
+          <h1>Hello!</h1>
+          <p>Enter your details and start your journey with us</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
