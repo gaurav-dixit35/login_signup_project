@@ -1,29 +1,30 @@
  Traditional Login
 Traditional Login is a clean and responsive web-based login and registration system built using HTML, CSS, JavaScript, and integrated with Firebase Authentication. It offers a user-friendly interface, smooth transitions, and secure authentication, perfect for modern web applications.
 
-📁 Project Structure
-graphql
-Copy
-Edit
+ Live Preview
+https://gaurav-dixit35.github.io/login_signup_project/
+
+Project Structure
 📦 traditional-login
 ├── index.html               # Login and Sign-Up Page
 ├── login_welcome.html       # Welcome Page after login
 ├── style.css                # Styling for the login/sign-up UI
 └── script.js                # Firebase authentication logic
-🚀 Features
-🔐 Firebase Authentication Integration
 
-📝 Signup form with validations (password match, required fields)
+Features
+Firebase Authentication Integration
 
-🔄 Seamless toggle between login & signup panels
+ Signup form with validations (password match, required fields)
 
-🌈 Stylish and responsive UI with gradients and animations
+ Seamless toggle between login & signup panels
 
-📄 Welcome screen showing the logged-in username
+ Stylish and responsive UI with gradients and animations
 
-📱 Mobile-first design approach
+ Welcome screen showing the logged-in username
 
-🛠️ Technologies Used
+ Mobile-first design approach
+
+Technologies Used
 HTML5
 
 CSS3
@@ -31,32 +32,6 @@ CSS3
 JavaScript (ES6+)
 
 Firebase Authentication (v11.8.1)
-
-🔧 Getting Started
-1. Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/your-username/traditional-login.git
-cd traditional-login
-2. Set Up Firebase
-Go to Firebase Console
-
-Create a project and enable Email/Password Authentication
-
-Replace the configuration in script.js:
-
-js
-Copy
-Edit
-const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  ...
-};
-3. Launch the App
-Open index.html in your browser or run on a local/live server.
 
 🤝 Collaboration
 Contributions are welcome! Here's how you can collaborate:
@@ -88,4 +63,4 @@ Name: Gaurav Dixit
 
 Email: gd36990@gmail.com
 
-GitHub: github.com/gaurav-dixit (update if different)
+Stay tunned for new updates
