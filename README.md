@@ -18,7 +18,7 @@ Project Structure
 
 └── script.js                # Firebase authentication logic
 
-Features
+**Features**
 
 Firebase Authentication Integration
 
@@ -32,7 +32,7 @@ Firebase Authentication Integration
 
  Mobile-first design approach
 
-Technologies Used
+**Technologies Used**
 
 HTML5
 
